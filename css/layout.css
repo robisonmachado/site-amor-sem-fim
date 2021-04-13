@@ -8091,8 +8091,10 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
-body {
-  background-color: red;
+.site-content {
+  width: 1024px;
+  height: 768px;
+  border: thin black solid;
 }
 
 /*# sourceMappingURL=layout.css.map */

@@ -4,8 +4,8 @@
   "description": "SITE AMOR SEM FIM",
   "main": "index.js",
   "scripts": {
-    "sass": "sass sass:css",
-    "sass watch": "sass --watch sass:css"
+    "sass": "sass sass/layout.scss:css/layout.css",
+    "sass-watch": "sass --watch sass/layout.scss css/layout.css"
   },
   "author": "ROBISON PEREIRA MACHADO",
   "license": "ISC",
