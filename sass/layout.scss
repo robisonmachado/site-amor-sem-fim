@@ -176,14 +176,6 @@ html {
     text-align: center
 }
 
-.site-content {
-    border: thin black solid;
-}
-
-.top-header {
-    border: thin black solid;
-}
-
 // CELEBRAÇÕES
 .celebracoes {
     margin-top: 0;
@@ -198,8 +190,6 @@ html {
     font-weight: bold;
 }
 
-.cards-group {}
-
 .cards-group .linha {
     display: flex;
     justify-content: center;
@@ -209,12 +199,43 @@ html {
 .cards-group .card-celebracao {
     width: 9rem;
     height: 12rem;
-    border: thin black solid;
+    background-color: white;
     border-radius: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    font-weight: bold;
+    position: relative;
 }
 
 .card-celebracao img {
     width: 100%;
+}
+
+.card-celebracao .action {
+    margin: 0;
+    width: 5.5rem;
+    line-height: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-celebracao a {
+    background-color: #be4a6c;
+    font-size: 0.5rem;
+    width: 4.5rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.card-celebracao .action .alvo {
+    text-align: left;
 }
