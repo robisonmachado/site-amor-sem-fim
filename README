@@ -1,0 +1,11 @@
+SITE AMOR SEM FIM
+
+## COMPILAR SASS
+Este projeto está usando SASS 
+para compilar o CSS execute o seguinte comando:
+	
+	npm run sass
+
+ou
+
+	npm run sass-watch
